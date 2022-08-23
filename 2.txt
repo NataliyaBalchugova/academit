@@ -2,3 +2,4 @@ line 1 in 2.txt
 line 2 in 2.txt
 line 3 in 2.txt
 line 4 in 2.txt
+line 5 in 2.txt
