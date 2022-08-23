@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Регистрация на соревнования</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="color:Yellow; background-color:#66cc66">
+<form>
+    <form action="/handler.php" method="post">
+        <label for=
+                       "clientName">Имя</label>
+        <input type="text" id=
+                "clientName6" name=
+                       "clientName6" />
+        <br/>
+        <br/>
+        <label for=
+                       "clientName">Фамилия</label>
+        <input type="text" id=
+                "clientName1" name=
+                       "clientName1" />
+        <br/>
+        <br/>
+        <comment>Выберите страну проживания</comment>
+        <select name="user_profile_color_1">
+            <option value="1">Россия</option>
+            <option value="2">Белоруссия</option>
+            <option value="3">Украина</option>
+            <option value="4">Казахстан</option>
+            <option value="5">другое</option>
+        </select>
+        <br/>
+        <comment>Выберите соревнование</comment>
+        <select name="user_profile_color_1">
+            <option value="1">Полумарафон Раевича</option>
+            <option value="2">Северная столица</option>
+            <option value="3">Московский полумарафон</option>
+            <option value="4">Сибирский международный марафон</option>
+            <option value="5">Томский полумарафон "Ярче" </option>
+        </select>
+        <br/>
+        <p1 id="pol">Пол</p1>
+        <div>
+            <input type="radio" id="contactChoice1"
+                   name="contact" value="email">
+            <label for="contactChoice1">Мужской</label>
+
+            <input type="radio" id="contactChoice2"
+                   name="contact" value="phone">
+            <label for="contactChoice2">Женский</label>
+        </div>
+        <br/>
+        <comment>Рассылка новостей</comment>
+        <br>
+        <label>
+            <input type="checkbox" name="languages" value="CSS">
+            На номер телефона
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="languages" value="JS">
+            На почту
+        </label>
+        <br/>
+        <p2>Язык рассылки</p2>
+        <div>
+            <input type="radio" id="contactChoice3"
+                   name="contact" value="email">
+            <label for="contactChoice1">Русский</label>
+
+            <input type="radio" id="contactChoice4"
+                   name="contact" value="phone">
+            <label for="contactChoice2">English</label>
+        </div>
+        <form action="handler.php">
+            <p id="title-parol"><strong>Пароль:</strong>
+                <input type="password" maxlength="25" size="40" name="password"></p>
+            <br/>
+            <form action="/handler.php" method="post">
+                <label for=
+                               "clientName">Контактный номер</label>
+                <input type="text" id=
+                        "clientName5" name=
+                               "clientName5" />
+                <br/>
+                <br/>
+                <form action="/handler.php" method="post">
+                    <label for=
+                                   "clientName">Почта</label>
+                    <input type="text" id=
+                            "clientName" name=
+                                   "clientName" />
+                    <br/>
+                    <a href="file:///C:/Users/b9l4e/IdeaProjects/HTML,%20CSS/index.html">Календарь соревнований</a>
+                    <br/>
+                    <button type="submit">Зарегистрироваться</button>
+                </form>
+</body>
+</html>
